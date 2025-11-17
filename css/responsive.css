@@ -31,5 +31,17 @@
         max-width: 95%;
     }
 
+    .presentation img {
+        float: left;
+        width: 41%;
+        margin-right: 20px;
+        margin-bottom: 5x;
+    }
 
+}
+
+/* media for mobile 480px*/
+
+@media  screen and (max-width: 480px) {
+    
 }
