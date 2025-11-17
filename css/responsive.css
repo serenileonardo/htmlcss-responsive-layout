@@ -1,1 +1,15 @@
 /* Soluzione qui */
+@media  screen and (max-width: 992px) {
+    .container {
+        max-width: 80%;
+    }
+
+    #logo {
+        font-size: 1em;
+    }
+
+    #topbar {
+        height: 25px;
+        display: block;
+    }
+}
