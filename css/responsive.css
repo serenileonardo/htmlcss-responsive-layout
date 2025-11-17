@@ -1,24 +1,36 @@
 /* Soluzione qui */
 
-/* media for desktop 992px */
-@media screen and (max-width: 992px) {
-    .container {
-        max-width: 80%;
+/* media for mobile 480px*/
+
+
+@media screen and (min-width: 480px) {
+    #topbar {
+        height: 48px;
+        display: flex;
+    }
+
+    .ads {
+        display: none;
+    }
+
+    .presentation img {
+        margin: 0 auto;
+        width: 50%;
+        float: none;
+        margin-bottom: 10px;
     }
 
     #logo {
-        font-size: 1em;
+        font-size: 2em;
     }
 
-    #topbar {
-        height: 25px;
-        display: block;
-    }
+
 }
+
 
 /* media for tablet 768px*/
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     #topbar {
         height: 48px;
     }
@@ -40,23 +52,20 @@
 
 }
 
-/* media for mobile 480px*/
+/* media for desktop 992px */
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 80%;
+    }
+
+    #logo {
+        font-size: 1em;
+    }
+
     #topbar {
-        height: 48px;
-        display: flex;
-    }
-
-    .ads {
-        display: none;
-    }
-
-     .presentation img {
-        margin: 0 auto;
-        width: 50%;
-        float: none;
-        margin-bottom: 10px;
+        height: 25px;
+        display: block;
     }
 
 }
