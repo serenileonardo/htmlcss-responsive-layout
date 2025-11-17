@@ -71,7 +71,7 @@ main {
 
 /* ADS */
 .ads {
-	display: none;
+	display: flex;
 	margin: 30px auto;
 }
 

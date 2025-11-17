@@ -1,4 +1,6 @@
 /* Soluzione qui */
+
+/* media for desktop 992px */
 @media  screen and (max-width: 992px) {
     .container {
         max-width: 80%;
@@ -12,4 +14,22 @@
         height: 25px;
         display: block;
     }
+}
+
+/* media for tablet 768px*/
+
+@media  screen and (max-width: 768px) {
+    #topbar {
+        height: 48px;
+    }
+
+     #logo {
+        font-size: 2em;
+    }
+
+    .container {
+        max-width: 95%;
+    }
+
+
 }
