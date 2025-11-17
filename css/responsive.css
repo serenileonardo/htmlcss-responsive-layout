@@ -1,7 +1,7 @@
 /* Soluzione qui */
 
 /* media for desktop 992px */
-@media  screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
     .container {
         max-width: 80%;
     }
@@ -18,12 +18,12 @@
 
 /* media for tablet 768px*/
 
-@media  screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     #topbar {
         height: 48px;
     }
 
-     #logo {
+    #logo {
         font-size: 2em;
     }
 
@@ -42,6 +42,21 @@
 
 /* media for mobile 480px*/
 
-@media  screen and (max-width: 480px) {
-    
+@media screen and (max-width: 480px) {
+    #topbar {
+        height: 48px;
+        display: flex;
+    }
+
+    .ads {
+        display: none;
+    }
+
+     .presentation img {
+        margin: 0 auto;
+        width: 50%;
+        float: none;
+        margin-bottom: 10px;
+    }
+
 }
