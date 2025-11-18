@@ -50,6 +50,9 @@
         margin-bottom: 5x;
     }
 
+    .ads {
+        display: flex;
+
 }
 
 /* media for desktop 992px */
@@ -60,12 +63,16 @@
     }
 
     #logo {
-        font-size: 1em;
+        font-size: 2em;
     }
 
     #topbar {
-        height: 25px;
+        height: 40px;
         display: block;
+    }
+
+     .ads {
+        display: flex;
     }
 
 }
